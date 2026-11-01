@@ -17,6 +17,8 @@
 [![sqale_index](https://sonarcloud.io/api/project_badges/measure?project=chubbyts_chubbyts-undici-oidc&metric=sqale_index)](https://sonarcloud.io/dashboard?id=chubbyts_chubbyts-undici-oidc)
 [![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=chubbyts_chubbyts-undici-oidc&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=chubbyts_chubbyts-undici-oidc)
 
+**Deprecated: @chubbyts/chubbyts-undici-oidc is no longer maintained, use [@chubbyts/chubbyts-http-oidc](https://github.com/chubbyts/chubbyts-http-oidc) instead.**
+
 ## Description
 
 A minimal OIDC (OpenID Connect) resource server integration for chubbyts-undici-server: resolves the issuer's [openid configuration][10], verifies JWT bearer tokens against its [JWKS][11] and passes the verified claims to the handler via request attributes.
